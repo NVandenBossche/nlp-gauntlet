@@ -70,6 +70,21 @@
             ]
         },
         {
+            "path": "sfdx-source/services/rasa",
+            "default": false,
+            "package": "NLP Gauntlet - rasa",
+            "versionName": "Spring 20",
+            "versionDescription": "NLP Gauntlet Rasa integration",
+            "versionNumber": "1.0.1.NEXT",
+            "definitionFile": "config/project-scratch-def.json",
+            "dependencies": [
+                {
+                    "package": "NLP Gauntlet - core",
+                    "versionNumber": "1.0.0.LATEST"
+                }
+            ]
+        },
+        {
             "path": "sfdx-source/services/ultimate-ai",
             "default": false,
             "package": "NLP Gauntlet - ultimate-ai",
